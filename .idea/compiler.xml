@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="common-api" />
+        <module name="datasource-api" />
+        <module name="datasource-mgr-demo" />
+        <module name="oldguy-database-demo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="common-api" target="1.8" />
+      <module name="datasource-api" target="1.8" />
+      <module name="datasource-mgr-demo" target="1.8" />
+      <module name="oldguy-database-demo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="common-api" options="-parameters" />
+      <module name="datasource-api" options="-parameters" />
+      <module name="datasource-mgr-demo" options="-parameters" />
+      <module name="oldguy-database-demo" options="-parameters" />
+    </option>
+  </component>
+</project>

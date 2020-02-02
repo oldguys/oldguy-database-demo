@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/common-api/common-api.iml" filepath="$PROJECT_DIR$/common-api/common-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datasource-api/datasource-api.iml" filepath="$PROJECT_DIR$/datasource-api/datasource-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datasource-mgr-demo/datasource-mgr-demo.iml" filepath="$PROJECT_DIR$/datasource-mgr-demo/datasource-mgr-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oldguy-database-demo.iml" filepath="$PROJECT_DIR$/oldguy-database-demo.iml" />
+    </modules>
+  </component>
+</project>
