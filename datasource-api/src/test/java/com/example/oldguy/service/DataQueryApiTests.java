@@ -7,7 +7,7 @@ import com.example.oldguy.datasource.models.DbColumn;
 import com.example.oldguy.datasource.models.DbQueryProperty;
 import com.example.oldguy.datasource.services.DataSourceFactory;
 import com.example.oldguy.datasource.services.api.DataQueryApi;
-import com.example.oldguy.datasource.services.impls.DefaultDataSourceFactory;
+import com.example.oldguy.datasource.services.impls.DefaultDataSourceFactoryBean;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
@@ -23,7 +23,7 @@ import java.util.Map;
 public class DataQueryApiTests {
 
     DbQueryProperty property = new DbQueryProperty();
-    DataSourceFactory dataSourceFactory = new DefaultDataSourceFactory();
+    DataSourceFactory dataSourceFactory = new DefaultDataSourceFactoryBean();
 
     void before() {
         property.setPassword("Root123456");

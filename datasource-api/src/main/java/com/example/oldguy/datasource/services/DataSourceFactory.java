@@ -1,10 +1,7 @@
 package com.example.oldguy.datasource.services;
 
-import com.example.oldguy.datasource.constants.DbType;
 import com.example.oldguy.datasource.models.DbQueryProperty;
 import com.example.oldguy.datasource.services.api.DataQueryApi;
-
-import javax.sql.DataSource;
 
 /**
  * @ClassName: DataSourceFactory

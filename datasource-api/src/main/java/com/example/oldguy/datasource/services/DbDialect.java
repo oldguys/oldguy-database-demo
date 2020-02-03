@@ -11,7 +11,6 @@ import org.springframework.jdbc.core.RowMapper;
  **/
 public interface DbDialect {
 
-
     RowMapper<DbColumn> rowMapper();
 
     /**

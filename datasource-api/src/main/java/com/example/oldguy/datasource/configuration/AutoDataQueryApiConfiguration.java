@@ -1,7 +1,8 @@
 package com.example.oldguy.datasource.configuration;
 
 import com.example.oldguy.datasource.services.DataSourceFactory;
-import com.example.oldguy.datasource.services.impls.DefaultDataSourceFactory;
+import com.example.oldguy.datasource.services.impls.CacheDataSourceFactoryBean;
+import com.example.oldguy.datasource.services.impls.DefaultDataSourceFactoryBean;
 import org.springframework.context.annotation.Bean;
 
 /**
@@ -14,6 +15,6 @@ public class AutoDataQueryApiConfiguration {
 
     @Bean
     public DataSourceFactory dataSourceFactory(){
-        return new DefaultDataSourceFactory();
+        return new CacheDataSourceFactoryBean();
     }
 }
